@@ -399,6 +399,19 @@ body [data-aos='zoom-in'] {
 .icon-github:before {
   content: '\f09b';
 }
+.icon-twitter:before {
+  content: '\e61b';
+}
+.icon-instagram:before {
+  content: '\f16d';
+}
+.icon-discord:before {
+  content: '\f392';
+}
+.icon-email:before {
+  content: '\f0e0';
+  font-weight: 900;
+}
 .sidebar-toc-btn:before {
   font-family: var(--font-icon);
   content: '\f0e8';
@@ -2767,6 +2780,18 @@ pre .emphasis {
 }
 .sidebar-social-icon:hover {
   transform: scale(1.2);
+}
+.icon-email {
+  color: var(--red-2);
+}
+.icon-twitter {
+  color: #191717;
+}
+.icon-instagram {
+  color: #e1306c;
+}
+.icon-discord {
+  color: #7289da;
 }
 .sidebar-menu-icon,
 .sidebar-menu-link {
