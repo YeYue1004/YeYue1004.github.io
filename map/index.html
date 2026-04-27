@@ -32,7 +32,7 @@
 <meta property="og:locale" content="zh_TW">
 <meta property="og:image" content="http://example.com/images/banner.webp">
 <meta property="article:published_time" content="2026-04-25T16:00:00.000Z">
-<meta property="article:modified_time" content="2026-04-26T12:28:28.660Z">
+<meta property="article:modified_time" content="2026-04-27T13:17:40.781Z">
 <meta property="article:author" content="夜月">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="http://example.com/images/banner.webp">
@@ -112,7 +112,7 @@
             <div class="main-nav-icon icon ">
                   &#xe0bb;
             </div>
-          <span class="main-nav-link">歸檔</span>
+          <span class="main-nav-link">檔案庫</span>
         </a>
         <a class="main-nav-link-wrap" href="/about">
             <div class="main-nav-icon icon ">
@@ -200,11 +200,11 @@
         <div class="sidebar-menu-link">首頁</div>
       </div>
       <div class="sidebar-menu-link-wrap">
-        <a class="sidebar-menu-link-dummy" href="/archives" aria-label="歸檔"></a>
+        <a class="sidebar-menu-link-dummy" href="/archives" aria-label="檔案庫"></a>
           <div class="sidebar-menu-icon icon ">
                 &#xe0bb;
           </div>
-        <div class="sidebar-menu-link">歸檔</div>
+        <div class="sidebar-menu-link">檔案庫</div>
       </div>
       <div class="sidebar-menu-link-wrap">
         <a class="sidebar-menu-link-dummy" href="/about" aria-label="關於"></a>
@@ -242,7 +242,7 @@
       <div class="article-date">
   <span class="article-date-link icon-calendar" data-aos="zoom-in">
     <time datetime="2026-04-25T16:00:00.000Z" itemprop="datePublished">2026-04-26</time>
-    <time style="display: none;" id="post-update-time">2026-04-26</time>
+    <time style="display: none;" id="post-update-time">2026-04-27</time>
   </span>
 </div>
 
@@ -264,6 +264,7 @@ var places = [
   {lat:24.97358, lng:121.56157, name:"臺北市東山中學", desc:"國中讀這裡", link:"/"},
   {lat:25.13439, lng:121.45046, name:"新北市聖心小學", desc:"國小讀這裡", link:"/"},
   {lat:25.17071, lng:121.41638, name:"淡江大橋", desc:"跑步路過", link:"/2026/04/26/日常跑步訓練"},
+  {lat:22.78742, lng:120.407, name:"高師大 燕巢校區", desc:"即將要來到這裡", link:"/"},
 ];
 
 var map = L.map('map').setView([25.06, 121.54], 12);
@@ -287,6 +288,7 @@ var icon = L.divIcon({
   iconSize:[12,12],
   iconAnchor:[6,6]
 });
+
 
 places.forEach(function(p){
   L.marker([p.lat,p.lng],{icon:icon}).addTo(map)
@@ -405,11 +407,11 @@ places.forEach(function(p){
         <div class="sidebar-menu-link">首頁</div>
       </div>
       <div class="sidebar-menu-link-wrap">
-        <a class="sidebar-menu-link-dummy" href="/archives" aria-label="歸檔"></a>
+        <a class="sidebar-menu-link-dummy" href="/archives" aria-label="檔案庫"></a>
           <div class="sidebar-menu-icon icon ">
                 &#xe0bb;
           </div>
-        <div class="sidebar-menu-link">歸檔</div>
+        <div class="sidebar-menu-link">檔案庫</div>
       </div>
       <div class="sidebar-menu-link-wrap">
         <a class="sidebar-menu-link-dummy" href="/about" aria-label="關於"></a>
@@ -503,7 +505,7 @@ places.forEach(function(p){
           description: "",
           stripContent: "       var places = [   {lat:25.13953, lng:121.44095, name:&#34;八里&#34;, desc:&#34;2010~2026，我所生活的地方&#34;, link:&#34;/2026/04/25/blog弄好了!/&#34;},   {lat:25.10469, lng:121.51653, name:&#34;臺北市中正高中&#34;, desc:&#34;我就讀的高中&#34;, link:&#34;/&#34;},   {lat:24.97358, lng:121.56157, name:&#34;臺北市東山中學&#34;, desc:&#34;",
           date: "Sun Apr 26 2026 00:00:00 GMT+0800",
-          updated: "Sun Apr 26 2026 20:28:28 GMT+0800",
+          updated: "Mon Apr 27 2026 21:17:40 GMT+0800",
           cover: "/images/banner.jpg",
         };
       </script>
